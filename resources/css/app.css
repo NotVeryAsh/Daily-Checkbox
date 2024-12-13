@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(90deg, #ecfeff 0%, rgba(200,225,169,1) 50%, #a5f3fc 100%);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-weight: bold;
+    font-size: x-large;
+    filter: drop-shadow(3px 3px 4px #94A978FF);
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    transform : scale(10, 10);
+    filter: drop-shadow(0 0 5px #ecfeff);
+}
